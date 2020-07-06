@@ -10,7 +10,7 @@ var options = {
     'Content-Type': 'text/xml; charset=utf-8',
     'SOAPAction': 'http://ws.aramex.net/ShippingAPI/v1/Service_1_0/TrackShipments',
     'Accept-Encoding': 'gzip, deflate',
-    'Expect': '100-continue'
+    //'Expect': '100-continue'
   },
   'maxRedirects': 20
 };
